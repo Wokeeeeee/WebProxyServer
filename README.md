@@ -44,36 +44,3 @@ out.flush();
 out.close();
 ```
 
-#### 实验结果
-
-本实验结果使用实验2的client.java进行测试：通过client访问实验2中的占用80端口的服务器。
-
-开启80端口服务器和8000端口的代理服务器，开启客户端和代理服务器相连接
-
-![image-20211008170805775](C:\Users\lxy\AppData\Roaming\Typora\typora-user-images\image-20211008170805775.png)
-
-使用指令`GET http://127.0.0.1:80/face.jpg HTTP/1.1`
-
-通过代理服务器获得端口为80的服务器下的`face.jpg`
-
-结果如下
-
-![image-20211008171050719](C:\Users\lxy\AppData\Roaming\Typora\typora-user-images\image-20211008171050719.png)
-
-获得`face.jpg`如下
-
-![image-20211008171131642](C:\Users\lxy\AppData\Roaming\Typora\typora-user-images\image-20211008171131642.png)
-
-
-
-
-
-通过浏览器访问
-
-![image-20211008173602554](C:\Users\lxy\AppData\Roaming\Typora\typora-user-images\image-20211008173602554.png)
-
-访问网址`http://211.143.237.227:9999/`
-
-![image-20211008173641577](C:\Users\lxy\AppData\Roaming\Typora\typora-user-images\image-20211008173641577.png)
-
-访问成功
